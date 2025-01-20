@@ -2,6 +2,8 @@ package com.projetojava.usuario.infraestructure.repository;
 
 
 import com.projetojava.usuario.infraestructure.entity.Usuario;
+import jakarta.transaction.Transactional;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

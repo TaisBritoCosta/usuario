@@ -1,16 +1,15 @@
 package com.projetojava.usuario.infraestructure.entity;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "endereco")
+@Builder
 public class Endereco {
 
     @Id
